@@ -57,9 +57,8 @@ title: 카이제곱 검정 with Python
   데이터 세트의 컬럼 전체를 넣게 되면 계산을 하지못한다. 판다스의 크로스탭을 사용해 확률변수의 표본을 측정하여 그 횟수를 표로 나타낸 분할표를 작성해서 입력값으로 넣으면 정상적으로 검정값이 나온다.
 
 - 참고사이트  
-
-  [카이제곱 검정/ 독립검정](https://datascienceschool.net/view-notebook/14bde0cc05514b2cae2088805ef9ed52/	"9.5 사이파이를 사용한 검정, 데이터사이언스 스쿨")
-  [카이제곱 독립검정](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2_contingency.html	"chi2_contingency, Scipy 참고문서")
-  [contigency 테이블](https://stackoverflow.com/questions/24767161/can-we-generate-contingency-table-for-chisquare-test-using-python	"파이썬 contingency 테이블 만드는 방법 질문")
+  [9.5 사이파이를 사용한 검정, 데이터사이언스 스쿨](https://datascienceschool.net/view-notebook/14bde0cc05514b2cae2088805ef9ed52/)  
+  [chi2_contingency, Scipy 참고문서](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2_contingency.html)  
+  [파이썬 contingency 테이블 만드는 방법 stackoverflow](https://stackoverflow.com/questions/24767161/can-we-generate-contingency-table-for-chisquare-test-using-python)  
 
   

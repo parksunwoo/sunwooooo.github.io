@@ -59,6 +59,6 @@ title: 카이제곱 검정 with Python
 - 참고사이트  
   [9.5 사이파이를 사용한 검정, 데이터사이언스 스쿨](https://datascienceschool.net/view-notebook/14bde0cc05514b2cae2088805ef9ed52/)  
   [chi2_contingency, Scipy 참고문서](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2_contingency.html)  
-  [파이썬 contingency 테이블 만드는 방법 stackoverflow](https://stackoverflow.com/questions/24767161/can-we-generate-contingency-table-for-chisquare-test-using-python)  
+  [파이썬 contingency 테이블 만드는 방법, stackoverflow](https://stackoverflow.com/questions/24767161/can-we-generate-contingency-table-for-chisquare-test-using-python)  
 
   

@@ -22,7 +22,7 @@ footer-links:
   flickr:
   github: parksunwoo/
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/sunwoo-park-a613aa131/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
@@ -33,7 +33,9 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: parksunwoo
+disqus_url : https://parksunwoo.disqus.com
+disqus_id : parksunwoo
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:

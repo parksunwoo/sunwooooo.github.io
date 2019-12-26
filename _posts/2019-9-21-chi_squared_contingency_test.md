@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 카이제곱 검정 with Python
+category: Statistics
+tags: [chi-squared distribution]
 ---
 
 - 카이제곱 검정은 언제 사용?  

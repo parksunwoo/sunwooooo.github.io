@@ -2,7 +2,7 @@
 layout: post
 title: Data Science & Machine Learning Real Talks
 category: Data science
-tags: [real talks] 
+tags: [real-talks] 
 ---
 
 Springboard 라는 온라인 교육회사에서 유튜브 채널을 통해 여성 데이터사이언스, 데이터사이언스 깊이 들여다보기 그리고 데이터사이언스 현직자와의 인터뷰 같은 양질의 영상을 채널을 통해 공개하는 것을

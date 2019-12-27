@@ -2,7 +2,7 @@
 layout: post
 title: 나이브베이즈 분류모형 with Python
 category: Statistics
-tags: [naive bayse]
+tags: [naive-bayse]
 ---
 
 - NaiveBayse 는 언제 사용?  

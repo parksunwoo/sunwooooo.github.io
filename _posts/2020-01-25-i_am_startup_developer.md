@@ -1,9 +1,7 @@
----
 layout: post
 title: 나는 스타트업 개발자다
 category: Modulabs
-tags: [voyage]
---- 
+tags: [voyage, startup, developer]
 
 > If you want to build a ship, don't drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea.
 >
@@ -17,4 +15,24 @@ tags: [voyage]
 새로운 서비스를 디자인하고 실제 서비스로 출시하기까지 과정에서 스타트업의 개발자로 겪게 되었던 여러 고민과 생각의 흔적, 개발지식들을 차근차근 정리해보고자 한다.
 
 나와 같은 상황에서 고민하고 있는 다른이에게 이 글이 꼭 도움되었으면 한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

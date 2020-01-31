@@ -3,6 +3,7 @@ layout: post
 title: 나.스.개 : 거인의 어깨, 오픈소스 이야기
 category: Modulabs
 tags: [voyage, opensource, license, GPL]
+---
 
 > There’s no such thing as a free lunch
 >

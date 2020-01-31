@@ -3,6 +3,7 @@ layout: post
 title: 나는 스타트업 개발자다
 category: Modulabs
 tags: [voyage, startup, developer]
+---
 
 > If you want to build a ship, don't drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea.
 >

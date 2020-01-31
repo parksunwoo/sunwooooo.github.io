@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 나.스.개 : 거인의 어깨, 오픈소스 이야기
+title: 나.스.개 - 거인의 어깨, 오픈소스 이야기
 category: Modulabs
 tags: [voyage, opensource, license, GPL]
 ---
@@ -32,7 +32,7 @@ GPL 라이선스를 약간 완화시킨 것이 LGPL 라이선스이고, 소스 �
 
 BSD 라이선스처럼 GPL 같은 재귀적 전염성 조항이 없는 오픈 소스 라이선스들도 존재한다. 
 
-### 
+
 
 ## 주요 라이선스
 
@@ -73,7 +73,7 @@ BSD 의무사항 + 특허권(GPL2.0 으로 배포되는 코드와는 결합 불�
 - No Derivative Works (변경금지) : 저작물을 변경하거나 저작물을 이용한 2차적 저작물 제작을 금지한다는 의미
 - Share Alike (동일조건변경허락) : 2차적 저작물 제작을 허용하되, 2차적 저작물에 원 저작물과 동일한 라이선스를 적용해야 한다는 의미
 
-#### 
+
 
 #### 오픈소스 소프트웨어의 배포의 개념
 
@@ -93,7 +93,7 @@ Apache2.0의 특허 보복 조항을 GPL2.0 에서는 보장하지 않아 라이
 
 ## 라이선스는 오픈소스를 선택할때 고려해야할 중요한 요소
 
-![djangopackages_forum](/Users/sunu/Desktop/스크린샷 2020-01-31 오전 7.41.08.png)
+![djangopackages_forum](../images/opensource.png)
 
 예를 들어 Django로 개발한다고 하고 django packages Forum 카테고리를 살펴보면 다음과 같은 Package들을 볼 수 있다. 가장 많은 스타수를 자랑하는 [MISAGO](https://djangopackages.org/packages/p/misago/) 프로젝트는 라이센스가 GPLv2라 새롭게 만들 프로젝트 역시 동일한 GPLv2 라이센스 이어야한다. 개인적으로 사용하기에는 부담이 없을 수 있으나 소스 비공개를 원한다면 사용이 힘들다. [Askbot](https://djangopackages.org/packages/p/askbot/)  스타수는 MISAGO 에 비해 적지만 사용되는 곳이나  포크 수에서는 앞선다. 라이센스는 GPLv3 이다.
 
@@ -107,10 +107,10 @@ GPL v3에서 가장 큰 변화는 특허에 있다. 기존의 버전2 GPL은 특
 
 ## 참고
 
-[https://namu.wiki/w/오픈 소스](https://namu.wiki/w/%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4)
-[creative commons korea](http://cckorea.org/xe/?mid=ccl)
-[GPL·AGPL·MPL…한눈에 보는 오픈소스SW 라이선스](http://www.bloter.net/archives/209318)
-[오픈소스를 사용하고, 준비하는 개발자를 위한 가이드](https://www.slideshare.net/ifkakao/ss-113145564)
+[https://namu.wiki/w/오픈 소스](https://namu.wiki/w/%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4)<br>
+[creative commons korea](http://cckorea.org/xe/?mid=ccl)<br>
+[GPL·AGPL·MPL…한눈에 보는 오픈소스SW 라이선스](http://www.bloter.net/archives/209318)<br>
+[오픈소스를 사용하고, 준비하는 개발자를 위한 가이드](https://www.slideshare.net/ifkakao/ss-113145564)<br>
 
 
 

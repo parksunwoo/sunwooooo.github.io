@@ -5,13 +5,10 @@ category: Modulabs
 tags: [voyage, stack, software, architecture]
 ---
 
-> This is your last Chance. After this, there is no turning back. You take the blue pill, the story ends.  
-> You wake up in your bed and believe whatever you want to believe. You take the red pill, you stay in Wonderland.
-> And I'll show you how deep the rabbit hole goes..... Remember, all I'm offering you it's the truth, nothing more.
+> The most personal is the most creative
 >
-> 이번이 마지막 기회야. 이게 끝나면 돌이킬 수 없어. 파란 약을 먹으면, 이야기는 여기서 끝나. 자넨 잠에서 깨어 일상으로 되돌아가 믿고 싶은 걸 믿으며 살면 돼. 
-> 빨간 약을 먹으면, 이상한 나라에 남는다. 나는 토끼굴이 과연 어디까지 깊은지 보여줄 걸세. 명심하게. 난 자네에게 진실만을 권한다는 걸.
- 
+> 가장 개인적인 것이 가장 창의적인 것이다
+
 
 새로 옮긴 회사에서 진행하는 프로젝트는 내가 꼭 진행해보고 싶은 프로젝트였다. 그래서 입사전부터 몇번 시간을 내서 회사를 찾았고 프로젝트의 내용과 진행되는 사항들에 대해 팔로우 업을 하려고 했다. 정식 입사후, 한달동안에는 몇가지 주요기능들을 어떻게 구현할지 그리고 아키텍쳐를 설계하는 일을 했다. 시스템 아키텍처는 다음블로그에서 상세히 이야기하기로 하고 소프트웨어 아키텍쳐를 설계하는 일을 이번 블로그에서 이야기해보려 한다. 소프트웨어 아키텍쳐를 설계하는 일의 핵심은 어떤 언어를 사용할지를 정하는 일이라고 보아도 무방하다.
 

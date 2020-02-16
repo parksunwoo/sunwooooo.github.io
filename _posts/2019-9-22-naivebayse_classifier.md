@@ -5,6 +5,11 @@ category: Statistics
 tags: [naive-bayse]
 ---
 
+나이브베이즈 분류모형에 대해 정리해보고 python 코드를 작성했습니다.
+
+
+<br><br><br>
+
 - NaiveBayse 는 언제 사용?  
   확률변수 A,B가 독립이면 A,B의 결합확률은 주변확률의 곱과 같다.  
     P(A,B) = P(A)P(B)  

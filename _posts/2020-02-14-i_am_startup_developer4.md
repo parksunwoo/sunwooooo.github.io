@@ -19,9 +19,8 @@ tags: [voyage, system, architecture]
 프로세스는 전용 메모리 공간을 이용해 동작해서 개별 처리 독립성이 높지만, 생성 시 CPU 부하가 높다.
 반면 스레드는 다른 스레드와 메모리 공간을 공유하고 있어 의도하지 않는 데이터 읽기/쓰기가 발생할수 있으나 생성시 부하가 낮다 <br>
 
-|          ![3tier-architecture](../images/3tier.png)          |
-| :----------------------------------------------------------: |
-| *출처: https://www.researchgate.net/figure/A-Typical-3-Tier-Server-Architecture-Tier-1-Web-Server-Tier-2-Application-Server-Tier_fig1_221147997* |
+![3tier-architecture](../images/3tier.png)
+*출처: https://www.researchgate.net/figure/A-Typical-3-Tier-Server-Architecture-Tier-1-Web-Server-Tier-2-Application-Server-Tier_fig1_221147997*
 <br><br>
 **웹 데이터 흐름의 본질은 '요청 기반으로 어떠한 처리를 하고 필요에 따라 해당 요청을 삼자에게 할당하는 것'이라고 정의할 수 있다.**
 
@@ -62,9 +61,8 @@ tags: [voyage, system, architecture]
   - 하드디스크 드라이브 (HDD): 주로 장기 저장 목적의 데이터 저장 장소로 사용한다. 메모리는 전기가 흐르지 않으면 데이터가 사라지지만, 디스크는 전기가 없어도 데이터가 사라지지 않는다. <br>
 
 아래 3개 서버사양으로 개발환경을 구성하려는 시나리오를 만들어봤다. server 1,2,3의 어떤 스펙을 주요하게 보고 지정할 것인가? <br>
-| ![dev-server-setting](../images/server_secniro.png) |
-| :-------------------------------------------------: |
-|      *당신은 개발서버를 어떻게 구성할 것인가?*      |
+![dev-server-setting](../images/server_secniro.png)
+*당신은 개발서버를 어떻게 구성할 것인가?*
 <br>
 우선 메모리가 가장 높은 서버는 31.3GB의 server1이고 CPU코어수가 가장 높은건 16개인 server3, disk 저장용량이 가장 높은건 777.5GB의 server2이다. 앞에서 정리한 내용에 따르면 CPU 코어수가 높은 server3을 WEB, WAS 서버로 메모리가 높은 server1을 DB서버로 하는게 적당해보인다.
 
@@ -72,13 +70,11 @@ tags: [voyage, system, architecture]
 3계층형 시스템의 일부 또는 전부가 클라우드 서비스 제공자가 보유하고 있는 물리 서버에 동작하는 걸 클라우드형 아키텍쳐라 한다. 대부분의 가상화 기술에서는 서버가 가상적인 존재로 동작한다. 이 방식을 이용하면 물리서버를 구입하는 것에 비해 비용이 낮고 바로 사용할 수 있다는 장점이 있지만, 보안문제나 클라우드 서비스 제공자와의 네트워크 연장 문제등이 있을 수 있다. 
 <br><br>[DigitalOcen](https://www.digitalocean.com/) 은 클라우드 호스팅 업체로 가성비가 뛰어나기로 유명하다. 현재기준 (2020년 2월) 60일 한정으로 100 달러 크레딧을 제공해서 개발용으로 테스트해보기에도 안성맞춤이다. 처음 시작하면 원하는 Droplets 을 생성할 수 있고 최소 5달러부터 시작해서 부담이없다. 사용해보면서 좋았던 점은 django 사이트를 만들겠다고 하면 web, was, db 서버포함해서 원클릭으로 구성을 바로 해볼 수 있다. 평소 구성해보고 싶었던 기술스택이나 솔루션을 바로 생성해보고 또 튜토리얼 문서가 잘 작성되어있어 서버환경을 구성할때에 좋은 참고자료가 된다.<br><br> 
 
-| ![create-droplets](../images/create_droplets.png) |
-| :-----------------------------------------------: |
-|    *최소사양 5달러 스펙은 개발용으로 충분하다*    |
-
-|    ![django-site](../images/django_site.png)     |
-| :----------------------------------------------: |
-| *원클릭으로 당신만의 Django 사이트를 만들수있다* |
+![create-droplets](../images/create_droplets.png)
+*최소사양 5달러 스펙은 개발용으로 충분하다*
+<br>
+![django-site](../images/django_site.png)
+*원클릭으로 당신만의 Django 사이트를 만들수있다*
 <br>
 기승전 클라우드가 된 것 같지만 클라우드를 처음부터 이야기 하지 않은것은 시스템 아키텍쳐에 대한 고민을 해보기 위해서였다.
 쉬운 방법으로 가게되면 얻게 되는 지식도 많지 않으리라.

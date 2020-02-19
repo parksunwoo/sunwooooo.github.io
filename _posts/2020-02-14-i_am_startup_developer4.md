@@ -72,10 +72,10 @@ tags: [voyage, system, architecture]
 
 ![create-droplets](../images/create_droplets.png)
 *최소사양 5달러 스펙은 개발용으로 충분하다*
-<br>
+<br><br>
 ![django-site](../images/django_site.png)
 *원클릭으로 당신만의 Django 사이트를 만들수있다*
-<br>
+<br><br><br>
 기승전 클라우드가 된 것 같지만 클라우드를 처음부터 이야기 하지 않은것은 시스템 아키텍쳐에 대한 고민을 해보기 위해서였다.
 쉬운 방법으로 가게되면 얻게 되는 지식도 많지 않으리라.
 
@@ -83,7 +83,7 @@ tags: [voyage, system, architecture]
 
 ## 참고
 
-그림으로 공부하는 IT인프라 구조 chapter 1~3, 제이펍<br>
+[그림으로 공부하는 IT인프라 구조 chapter 1~3](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=62754081), 제이펍<br>
 [아이패드로 코딩하기](https://boxnwhis.kr/2020/01/11/coding_with_ipad.html)<br> 
 
 

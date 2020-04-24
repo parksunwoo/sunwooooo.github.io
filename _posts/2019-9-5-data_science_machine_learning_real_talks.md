@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Science & Machine Learning Real Talks
-category: Data science
+categories: [Data Science]
 tags: [real-talks] 
 ---
 

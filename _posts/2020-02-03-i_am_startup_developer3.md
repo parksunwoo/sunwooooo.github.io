@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나.스.개 - 무엇으로 집을 지을것인가, 기술스택 선택하기
-category: Modulabs
+categories: [Startup]
 tags: [voyage, stack, software, architecture]
 ---
 

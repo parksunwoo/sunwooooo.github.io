@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나.스.개 - 어디에 집을 지을것인가, 시스템 아키텍쳐 구성하기
-category: Modulabs
+categories: [Startup]
 tags: [voyage, system, architecture]
 ---
 

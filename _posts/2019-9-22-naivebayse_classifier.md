@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나이브베이즈 분류모형 with Python
-category: Statistics
+categories: [Data Science]
 tags: [naive-bayse]
 ---
 

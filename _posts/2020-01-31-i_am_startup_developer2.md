@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 나.스.개 - 거인의 어깨, 오픈소스 이야기
-category: Modulabs
+categories: [Startup]
 tags: [voyage, opensource, license, GPL]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 카이제곱 검정 with Python
-category: Statistics
+categories: [Data Science]
 tags: [chi-squared-distribution]
 ---
 

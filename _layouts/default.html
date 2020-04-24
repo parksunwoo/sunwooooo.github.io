@@ -18,19 +18,27 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
+        <header class="masthead clearfix site-category">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/tags">Tag</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
+          <ul>
+            {% assign pages_list = site.pages %}
+            {% for node in pages_list %}
+            {% if node.title != null %}
+            {% if node.layout == "category" %}
+            <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                   href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </ul>
         </header>
       </div>
     </div>
